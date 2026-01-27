@@ -1,32 +1,32 @@
 project_id,projeto,area,responsavel,prioridade,inicio,prazo,conclusao,status,custo_previsto
-PRJ-001,Painel Estratégico BSC,Jurídico,David,baixa,2025-10-16,2025-11-30,68.91%,em dia,16591.06
+PRJ-001,Painel Estratégico BSC,Jurídico,David,baixa,2025-10-16,2025-11-30,"68,91%",em dia,16591.06
 PRJ-002,integração erp fortes,Financeiro,Ana,baixa,2025-12-07,2026-01-14,51%,critico,20916.29
-PRJ-003,PMO  Estratégico,Financeiro,Lucas,media,2026-02-20,2026-01-14,0.73%,critico,16576.11
-PRJ-004,Governança  de  Crédito,Jurídico,Bruno,alta,2025-10-15,2025-10-28,0.98%,em dia,50931.89
+PRJ-003,PMO  Estratégico,Financeiro,Lucas,media,2026-02-20,2026-01-14,"0,73%",critico,16576.11
+PRJ-004,Governança  de  Crédito,Jurídico,Bruno,alta,2025-10-15,2025-10-28,"0,98%",em dia,50931.89
 PRJ-005,PIPELINE COMERCIAL EFVCG,Operações,Rafaela,alta,,2025-11-26,,critico,24811.04
 PRJ-006, Franquia WEX,Comercial,João,media,2025-10-13,2025-12-18,48%,pausado,10192.05
 PRJ-007,Implantação  CRM,Comercial,Davi Donato,baixa,2026-02-13,2026-01-11,99%,atrasado,36515.63
-PRJ-008,Rotina  de  Indicadores,Comercial,Neto,alta,2025-11-17,,0.76%,pausado,7908.19
-PRJ-009,Automação Cobrança,Jurídico,Ana,media,2025-11-30,2025-12-29,0.42%,em dia,27924.09
-PRJ-010,REVISÃO DE PROCESSOS,Financeiro,Maria,alta,2025-12-03,2026-02-15,0.7%,critico,5000.0
+PRJ-008,Rotina  de  Indicadores,Comercial,Neto,alta,2025-11-17,,"0,76%",pausado,7908.19
+PRJ-009,Automação Cobrança,Jurídico,Ana,media,2025-11-30,2025-12-29,"0,42%",em dia,27924.09
+PRJ-010,REVISÃO DE PROCESSOS,Financeiro,Maria,alta,2025-12-03,2026-02-15,"0,7%",critico,5000.0
 PRJ-011, Dashboard Financeiro,Jurídico,João,urgente,2026-01-16,2025-12-06,42%,atrasado,6405.4
 PRJ-012, Controle de Inadimplência,Jurídico,Neto,baixa,2025-12-06,2025-10-10,41%,em dia,27756.06
-PRJ-013,MITTU SAF GO-TO-MARKET,RH,Lucas,urgente,2025-12-07,2025-12-20,61.8%,critico,35338.53
-PRJ-014,Reestruturação Comercial KOP ,Financeiro,Maria,baixa,2026-01-26,2026-01-07,1.43%,atrasado,27399.16
-PRJ-015,Captação de Leads,RH,Kamila,media,2025-10-03,,6.7%,atrasado,
-PRJ-016,NPS E SATISFAÇÃO,TI,Kamila,baixa,2025-10-26,2026-02-11,39.3%,critico,20784.55
+PRJ-013,MITTU SAF GO-TO-MARKET,RH,Lucas,urgente,2025-12-07,2025-12-20,"61,8%",critico,35338.53
+PRJ-014,Reestruturação Comercial KOP ,Financeiro,Maria,baixa,2026-01-26,2026-01-07,"1,43%",atrasado,27399.16
+PRJ-015,Captação de Leads,RH,Kamila,media,2025-10-03,,"6,7%",atrasado,
+PRJ-016,NPS E SATISFAÇÃO,TI,Kamila,baixa,2025-10-26,2026-02-11,"39,3%",critico,20784.55
 PRJ-017,TREINAMENTO TIME COMERCIAL,Financeiro,Ana,baixa,2025-11-03,2026-03-21,,atrasado,5000.0
-PRJ-018,Padronizacao de Atas,Financeiro,Kamila,media,2026-01-03,,63.8%,em dia,14922.18
+PRJ-018,Padronizacao de Atas,Financeiro,Kamila,media,2026-01-03,,"63,8%",em dia,14922.18
 PRJ-019,GESTÃO MONDAY.COM,Financeiro,Maria,baixa,2026-03-30,2025-12-24,30%,critico,18551.06
-PRJ-020,ORGANOGRAMA PMO,Comercial,Maria,alta,2026-03-17,2025-12-16,15.46%,pausado,
-PRJ-021,Custos  por  Curso  EFVCG,Comercial,Rafaela,media,2025-12-16,2026-01-12,0.96%,em dia,29810.66
+PRJ-020,ORGANOGRAMA PMO,Comercial,Maria,alta,2026-03-17,2025-12-16,"15,46%",pausado,
+PRJ-021,Custos  por  Curso  EFVCG,Comercial,Rafaela,media,2025-12-16,2026-01-12,"0,96%",em dia,29810.66
 PRJ-022,Gestão de Contratos,RH,João,media,2025-10-30,2026-03-20,48%,em dia,5000.0
-PRJ-023,REDUÇÃO DE CHURN,RH,Davi Donato,media,2025-12-12,2026-03-07,56.89%,critico,29537.18
-PRJ-024,Melhoria do Onboarding,Financeiro,Bruno,urgente,2026-03-25,2025-10-01,15.1%,critico,19608.85
+PRJ-023,REDUÇÃO DE CHURN,RH,Davi Donato,media,2025-12-12,2026-03-07,"56,89%",critico,29537.18
+PRJ-024,Melhoria do Onboarding,Financeiro,Bruno,urgente,2026-03-25,2025-10-01,"15,1%",critico,19608.85
 PRJ-025,Projeto de B.I. Operacional,RH,David,urgente,2025-10-14,2026-02-26,39%,atrasado,15523.09
-PRJ-026,PLANO DE METAS 2026,Comercial,Kamila,baixa,2025-10-12,2026-01-22,0.58%,em dia,33563.47
+PRJ-026,PLANO DE METAS 2026,Comercial,Kamila,baixa,2025-10-12,2026-01-22,"0,58%",em dia,33563.47
 PRJ-027, Ajuste de Precificação,Jurídico,Ana,media,2025-12-07,2025-11-13,23%,atrasado,39433.99
-PRJ-028,Centralizacao Contabil,Jurídico,Kamila,baixa,2026-01-18,2026-03-08,65.5%,em dia,38037.92
+PRJ-028,Centralizacao Contabil,Jurídico,Kamila,baixa,2026-01-18,2026-03-08,"65,5%",em dia,38037.92
 PRJ-003,PMO ESTRATÉGICO,Comercial,Bruno,urgente,2026-03-26,2025-11-30,,critico,16576.11
 PRJ-010,REVISÃO DE PROCESSOS,Jurídico,David,media,2026-02-27,2025-10-07,70%,pausado,5000.0
 PRJ-002,Integração ERP Fortes ,Financeiro,Bruno,media,2025-12-18,2025-10-19,,em dia,20916.29
@@ -34,4 +34,4 @@ PRJ-002,Integração ERP Fortes ,Financeiro,Bruno,media,2025-12-18,2025-10-19,,e
 ,Padronização  de  Atas,TI,Lucas,urgente,2025-10-27,2026-03-17,,pausado,14922.0
 PRJ-017,Treinamento  Time  Comercial,TI,Lucas,baixa,2026-01-13,2025-10-28,27%,pausado,5000.0
 PRJ-999,Integração ERP fortes,TI,,alta,,2026-03-15,100%,atrasado,-5000.0
-,Painel estrategico  BSC,Financeiro,Kamila,,2025-05-13,,0.7%,em dia,25000.0
+,Painel estrategico  BSC,Financeiro,Kamila,,2025-05-13,,"0,7%",em dia,25000.0

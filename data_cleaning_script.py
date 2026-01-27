@@ -138,11 +138,11 @@ class DataCleaner:
                 return ''
             # Cap at 100
             num_value = min(100, num_value)
-            # Return with point decimal and % symbol (standardized format)
+            # Return with comma decimal and % symbol (Brazilian format for Power BI)
             if num_value.is_integer():
                 return f"{int(num_value)}%"
             else:
-                return f"{num_value}%"
+                return f"{str(num_value).replace('.', ',')}%"
         else:
             # US format with point decimal or integer
             try:
@@ -152,11 +152,11 @@ class DataCleaner:
                 return ''
             # Cap at 100
             num_value = min(100, num_value)
-            # Return with point decimal and % symbol
+            # Return with comma decimal and % symbol (Brazilian format for Power BI)
             if num_value.is_integer():
                 return f"{int(num_value)}%"
             else:
-                return f"{num_value}%"
+                return f"{str(num_value).replace('.', ',')}%"
     
     def remove_accents(self, text):
         """

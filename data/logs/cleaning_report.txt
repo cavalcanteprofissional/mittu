@@ -1,6 +1,6 @@
 Data Cleaning Report
 ==================================================
-Generated: 2026-01-27 18:02:34
+Generated: 2026-01-27 18:09:55
 
 File: Projetos_raw.csv
   Total Records: 36
