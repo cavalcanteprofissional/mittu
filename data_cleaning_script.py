@@ -23,6 +23,7 @@ Date: 2026-01-26
 import pandas as pd
 import re
 import os
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
@@ -155,14 +156,27 @@ class DataCleaner:
             else:
                 return f"{num_value}%"
     
+    def remove_accents(self, text):
+        """
+        Remove accents from text characters
+        """
+        if pd.isna(text) or text == '':
+            return text
+        
+        # Normalize to NFD form and remove combining characters
+        normalized = unicodedata.normalize('NFD', str(text))
+        return ''.join(char for char in normalized if not unicodedata.combining(char))
+    
     def standardize_prioridade(self, value):
         """
-        Standardize prioridade column to lowercase, preserving empty values
+        Standardize prioridade column to lowercase without accents, preserving empty values
         """
         if pd.isna(value) or value == '' or str(value).lower() in ['null', 'none', 'nan', 'n/a']:
             return ''
         
-        return str(value).strip().lower()
+        # Remove accents first, then convert to lowercase
+        text_without_accents = self.remove_accents(str(value).strip())
+        return text_without_accents.lower()
     
     def standardize_status(self, value):
         """
