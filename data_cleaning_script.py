@@ -280,9 +280,12 @@ class DataCleaner:
         if corrected != currency_str and not o_correction_made:
             print(f"Warning: Currency typo correction '{currency_string}' -> '{corrected}'")
         
-        # Remove currency symbols, spaces, and annotations
-        # Keep the comma for Brazilian decimal format handling
-        cleaned = re.sub(r'[R$\s\(\)estim]', '', corrected)
+        # Remove currency symbols and annotations in two stages
+        # Stage 1: Remove currency symbol R$
+        cleaned = corrected.replace('R$', '').strip()
+        
+        # Stage 2: Remove estimation annotations with any ending character
+        cleaned = re.sub(r'\(.*estim.*\)', '', cleaned)
         
         # Handle Brazilian currency format properly
         if ',' in cleaned and '.' in cleaned:
