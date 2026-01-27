@@ -1,0 +1,16 @@
+Starting data cleaning process...
+
+Cleaning Projetos_raw.csv...
+Warning: Invalid date format '31/02/2026' (could not parse), keeping as empty
+Warning: Invalid date format '2025-13-05' (could not parse), keeping as empty
+Warning: Currency typo correction 'R$ 25.000,0O' -> 'R$ 25.000,00'
+Projetos_clean.csv created with 36 records
+Cleaning Custos_raw.csv...
+Custos_clean.csv created with 180 records
+Cleaning Horas_raw.csv...
+Horas_clean.csv created with 220 records
+Quality report saved to data\logs\cleaning_report.txt
+
+All files cleaned successfully!
+Clean files saved in: data\cleaned
+Report available at: data\logs/cleaning_report.txt

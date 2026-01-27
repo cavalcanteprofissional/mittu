@@ -1,0 +1,7 @@
+Campo/Sheet,Descrição
+Projetos_raw,Lista de projetos (com inconsistências propositalmente inseridas).
+Custos_raw,"Lançamentos de custos por projeto (link por ID e/ou nome, com dados faltantes)."
+Horas_raw,Apontamento de horas por projeto (formatos mistos).
+KPIs_raw,Metas/KPIs (opcional para enriquecer o dashboard).
+Objetivo,"Consolidar uma visão executiva: status dos projetos, progresso, custo previsto vs realizado e esforço (horas)."
+Perguntas de negócio,1) Quais projetos estão críticos/atrasados? 2) Quais estouraram custo? 3) Onde há maior esforço? 4) O que priorizar no próximo mês?

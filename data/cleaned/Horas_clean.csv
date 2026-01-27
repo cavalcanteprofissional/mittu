@@ -1,0 +1,221 @@
+data,colaborador,project_id,projeto,atividade,horas,observacao,remoto
+2026-02-18,Bruno,,Painel Estratégico BSC,Validação,,Urgente,Híbrido
+2025-12-23,João,,Plano de Metas 2026,Modelagem,5.7,Depende do ERP,Não
+2025-11-10,Rafaela,PRJ-027,,Documentação,2.0,OK,Sim
+2026-02-20,Bruno,PRJ-007,,Dashboard,4.21,,
+2025-11-18,Maria,PRJ-021,,Documentação,,Sem dados,
+2025-12-15,Bruno,PRJ-002,,Reunião,3.3,OK,Sim
+2025-12-01,Carlos,PRJ-001,,Implantação,2.5,OK,
+2026-01-13,David,PRJ-003,,Modelagem,3.6,,Não
+2026-02-24,David,PRJ-006,,Validação,0.25,,Híbrido
+2025-10-21,Davi Donato,PRJ-027,,Documentação,1.25,Aguardando diretoria,
+2025-10-19,Lucas,,PMO Estratégico,Implantação,2.5,,Sim
+2025-11-15,Ana,,Gestão de Contratos,Modelagem,2.08,OK,Sim
+2026-01-11,Neto,PRJ-019,,Implantação,2.94,Aguardando diretoria,
+2025-12-22,David,,Redução de Churn,Dashboard,2.0,Depende do ERP,Sim
+2026-03-02,João,,Redução de Churn,Reunião,5.0,Retrabalho,Não
+2026-02-24,Davi Donato,PRJ-026,,Correção,1.0,Retrabalho,Não
+2025-10-24,Lucas,PRJ-014,,Modelagem,0.7,Sem dados,Híbrido
+2025-12-16,Rafaela,,Integração ERP Fortes,Alinhamento,3.0,,Sim
+2026-03-17,Carlos,,Pipeline Comercial EFVCG,Alinhamento,,,Híbrido
+2026-01-09,Rafaela,,PMO Estratégico,Implantação,,,Não
+2025-12-07,Ana,PRJ-015,Captação de Leads,ETL,6.0,OK,Não
+2025-12-02,Ana,PRJ-027,Ajuste de Precificação,Documentação,2.0,Sem dados,Sim
+2025-10-07,Maria,PRJ-009,,Correção,2.64,Aguardando diretoria,Não
+2025-10-22,Lucas,PRJ-004,Governança de Crédito,ETL,0.0,OK,Híbrido
+2025-12-24,Lucas,PRJ-011,,Dashboard,5.75,Aguardando diretoria,Sim
+2026-03-19,Neto,,Organograma PMO,Reunião,6.0,Retrabalho,Não
+,Carlos,,Custos por Curso EFVCG,Validação,2.0,Sem dados,Híbrido
+2026-03-31,Bruno,,Painel Estratégico BSC,Implantação,3.5,,Não
+2025-12-18,Estagiário,PRJ-015,,ETL,0.96,,Híbrido
+,João,,Revisão de Processos,Alinhamento,,OK,Sim
+2026-02-11,Carlos,,PMO Estratégico,Dashboard,,Depende do ERP,Não
+2026-02-26,Lucas,,Melhoria do Onboarding,ETL,,Retrabalho,Sim
+2025-10-18,Estagiário,,Mittu SAF Go-to-Market,Modelagem,4.0,Urgente,Híbrido
+2026-03-13,Lucas,,PLANO DE METAS 2026,Modelagem,,Urgente,Não
+2025-10-07,Aprendiz,PRJ-020,,Correção,0.0,Urgente,Sim
+2026-01-30,Lucas,,Painel Estratégico BSC,Reunião,0.2,Depende do ERP,Sim
+2025-11-15,Bruno,,Pipeline Comercial EFVCG,Documentação,3.93,OK,
+2026-02-24,Carlos,,NPS e Satisfação,Reunião,2.0,Aguardando diretoria,Sim
+2026-01-10,David,PRJ-014,Reestruturação Comercial KOP,Reunião,5.25,Urgente,Híbrido
+2025-10-14,Bruno,PRJ-013,Mittu SAF Go-to-Market,Correção,2.41,,Sim
+2026-01-24,Rafaela,PRJ-003,,Dashboard,0.0,Depende do ERP,Sim
+2026-01-24,Estagiário,PRJ-020,,Alinhamento,,Sem dados,Sim
+2025-12-25,,,Organograma PMO,ETL,3.1,Urgente,Não
+2025-10-31,Davi Donato,PRJ-021,,Validação,3.0,,
+2026-01-25,Rafaela,PRJ-015,Captação de Leads,Reunião,,Urgente,Sim
+2025-10-15,,PRJ-013,,Reunião,1.3,Sem dados,Sim
+2025-11-15,Rafaela,,Implantação CRM,Implantação,2.7,Urgente,
+2026-01-06,,,PMO Estratégico,Implantação,3.5,,Híbrido
+2025-10-15,Carlos,PRJ-016,NPS e Satisfação,Implantação,5.04,,
+2026-02-25,Neto,,Projeto de BI Operacional,Correção,5.0,Aguardando diretoria,
+,Carlos,PRJ-011,Dashboard Financeiro,Modelagem,,Sem dados,Não
+,Lucas,,Franquia WEX,Validação,2.0,Retrabalho,Sim
+2025-12-27,Rafaela,PRJ-022,,Reunião,2.5,OK,Não
+2025-11-09,David,PRJ-023,,Documentação,,Depende do ERP,
+2025-12-24,Neto,,Mittu SAF Go-to-Market,Validação,,OK,Sim
+2025-11-17,Aprendiz,PRJ-018,,Validação,3.8,Sem dados,Híbrido
+2025-12-17,Neto,,Padronização de Atas,Modelagem,2.25,Retrabalho,Sim
+2026-02-06,Bruno,,NPS e Satisfação,Implantação,1.5,Retrabalho,Híbrido
+2026-01-26,David,PRJ-018,,Modelagem,,,Híbrido
+2025-10-12,Carlos,,Melhoria do Onboarding,Validação,3.2,,Sim
+2026-02-14,Carlos,,Reestruturação Comercial KOP,Modelagem,2.1,Retrabalho,Não
+2026-02-18,Estagiário,PRJ-027,,Validação,5.36,Aguardando diretoria,Não
+,Carlos,PRJ-027,,Reunião,0.98,,
+2026-03-07,,PRJ-001,,Dashboard,2.0,Sem dados,Sim
+2026-03-28,João,PRJ-022,,Correção,2.44,Depende do ERP,Não
+2025-12-24,Davi Donato,,Integração ERP Fortes,Modelagem,2.18,Depende do ERP,Sim
+2025-10-28,Kamila,PRJ-021,,Validação,,Aguardando diretoria,
+2026-03-27,Ana,PRJ-020,Organograma PMO,Documentação,0.0,Aguardando diretoria,Não
+2025-12-23,Bruno,PRJ-023,,ETL,,Retrabalho,
+2025-10-24,Rafaela,PRJ-014,,Reunião,4.0,OK,Não
+2025-12-16,Carlos,,Revisão de Processos,Validação,,Depende do ERP,Híbrido
+,David,,Ajuste de Precificação,Reunião,1.0,,Sim
+2026-01-09,Ana,,Revisão de Processos,Alinhamento,2.62,Depende do ERP,Sim
+2025-12-13,Kamila,PRJ-004,,Reunião,,Urgente,
+2026-01-25,Rafaela,,Dashboard Financeiro,ETL,1.3,Depende do ERP,Sim
+2025-10-02,Estagiário,PRJ-011,Dashboard Financeiro,Dashboard,3.8,Sem dados,Sim
+,Bruno,PRJ-007,,Documentação,1.8,,Sim
+2026-01-28,Rafaela,PRJ-026,Plano de Metas 2026,Modelagem,2.0,Urgente,
+2025-12-27,Bruno,,Custos por Curso EFVCG,Correção,6.0,Aguardando diretoria,
+2026-03-27,Estagiário,,Melhoria do Onboarding,Validação,0.03,,
+2025-11-02,Aprendiz,,Redução de Churn,Validação,,Retrabalho,Não
+2026-03-18,Neto,,Organograma PMO,Validação,2.0,OK,Não
+2025-11-09,Ana,PRJ-004,Governança de Crédito,Alinhamento,4.2,Urgente,
+2025-10-30,Ana,,Reestruturação Comercial KOP,Correção,2.93,Retrabalho,
+2026-01-20,Aprendiz,,NPS e Satisfação,Correção,3.0,Depende do ERP,Híbrido
+2026-01-19,,,Revisão de Processos,Validação,1.5,Retrabalho,Híbrido
+2026-02-28,Carlos,PRJ-013,,ETL,3.0,Retrabalho,Sim
+2025-10-27,Estagiário,PRJ-024,,Validação,1.75,Retrabalho,Não
+2026-03-13,Kamila,PRJ-020,,Modelagem,1.25,OK,Sim
+2025-12-04,Kamila,PRJ-003,,Correção,4.0,Retrabalho,
+,Ana,,Padronização de Atas,Documentação,,,Híbrido
+2026-02-03,Aprendiz,,Captação de Leads,Alinhamento,1.0,Urgente,Sim
+2026-02-24,Davi Donato,,Pipeline Comercial EFVCG,Correção,4.1,Urgente,Sim
+2026-02-03,,,Rotina de Indicadores,Modelagem,3.0,Aguardando diretoria,Não
+2026-03-24,Carlos,PRJ-015,,Modelagem,5.0,Retrabalho,Sim
+2026-02-19,Carlos,,Centralização Contábil,Dashboard,0.46,Retrabalho,
+2025-11-18,Davi Donato,,Projeto de BI Operacional,Dashboard,3.0,Depende do ERP,
+2025-10-10,Aprendiz,PRJ-001,,Reunião,4.0,Depende do ERP,Sim
+2025-11-29,Neto,PRJ-015,,Correção,1.0,Sem dados,Sim
+,Carlos,PRJ-015,Captação de Leads,Reunião,1.25,Retrabalho,Sim
+2026-03-07,Lucas,PRJ-014,Reestruturação Comercial KOP,Alinhamento,2.01,Retrabalho,
+2025-11-24,Maria,PRJ-006,,Modelagem,3.4,,Híbrido
+,Kamila,PRJ-009,,Alinhamento,3.0,OK,Não
+2026-03-30,Ana,PRJ-013,,Correção,5.25,Sem dados,Não
+,Neto,PRJ-001,,Correção,5.0,Aguardando diretoria,Sim
+2025-10-31,Rafaela,,NPS e Satisfação,Documentação,0.2,OK,Sim
+,Kamila,,Governança de Crédito,ETL,0.9,Sem dados,
+2025-11-23,Rafaela,PRJ-011,Dashboard Financeiro,Correção,0.1,,Sim
+2026-01-22,Ana,,Mittu SAF Go-to-Market,Dashboard,,Sem dados,Híbrido
+2025-11-21,Kamila,PRJ-004,,Correção,2.6,Aguardando diretoria,
+2026-01-26,João,PRJ-027,,Dashboard,1.47,Retrabalho,Não
+2026-01-16,Lucas,PRJ-019,,Validação,3.8,Aguardando diretoria,Não
+2025-11-28,David,,Plano de Metas 2026,Correção,2.0,OK,Não
+2026-02-26,Rafaela,,Custos por Curso EFVCG,ETL,,Aguardando diretoria,Sim
+2026-03-28,Lucas,PRJ-016,NPS e Satisfação,Modelagem,1.0,Aguardando diretoria,Sim
+2025-10-05,Neto,,Integração ERP Fortes,Correção,2.58,OK,Sim
+2026-01-27,Kamila,,Painel  Estratégico  BSC,Alinhamento,2.0,Sem dados,Híbrido
+2026-03-25,Maria,,Centralização Contábil,Reunião,2.0,Aguardando diretoria,Híbrido
+2025-10-18,Lucas,,Captação  de  Leads,ETL,3.59,Retrabalho,Não
+2025-11-27,João,,Revisão de Processos,Implantação,4.0,Sem dados,
+2026-03-23,Bruno,PRJ-011,,Documentação,,OK,Sim
+2025-12-13,João,PRJ-027,,Modelagem,4.75,Sem dados,Não
+2026-02-16,Ana,PRJ-023,Redução de Churn,Correção,3.83,Sem dados,Sim
+2026-03-15,Maria,PRJ-014,,Documentação,2.1,Depende do ERP,Sim
+2025-12-06,João,,Controle de Inadimplência,Reunião,4.0,Urgente,Híbrido
+2025-11-16,Estagiário,PRJ-018,,ETL,3.1,Urgente,Não
+2026-03-20,Neto,PRJ-027,,Documentação,,Depende do ERP,Sim
+2025-11-07,Neto,,Custos por Curso EFVCG,Reunião,1.4,Sem dados,Sim
+2026-02-24,Estagiário,,Integração ERP Fortes,Correção,3.13,Retrabalho,Sim
+2025-11-26,Maria,,Ajuste de Precificação,Reunião,3.49,Aguardando diretoria,Não
+2026-01-23,Ana,,Painel Estratégico BSC,Dashboard,1.86,Depende do ERP,Híbrido
+2026-01-18,Davi Donato,,Painel Estratégico BSC,Validação,0.5,Retrabalho,Híbrido
+2026-01-15,Aprendiz,PRJ-011,,Alinhamento,4.3,Sem dados,
+2026-02-12,Rafaela,PRJ-007,,Alinhamento,3.25,,Sim
+2025-11-17,Bruno,PRJ-002,Integração ERP Fortes,Reunião,3.0,OK,Híbrido
+,João,,Revisão de Processos,Validação,4.03,Sem dados,
+2026-03-15,Aprendiz,PRJ-012,,Validação,0.6,Depende do ERP,Sim
+2026-03-27,Estagiário,,Controle de Inadimplência,Reunião,3.89,OK,Híbrido
+2025-12-09,Maria,PRJ-025,,Reunião,0.0,Retrabalho,Híbrido
+2025-11-12,Maria,,Integração ERP Fortes,Validação,2.74,Retrabalho,Híbrido
+2026-01-04,Neto,PRJ-007,,Modelagem,2.2,Urgente,Não
+2026-02-19,Kamila,,Gestão de Contratos,Modelagem,2.0,OK,Não
+2025-12-27,Davi Donato,,NPS e Satisfação,Modelagem,3.0,Urgente,Não
+2026-03-26,Aprendiz,,automação cobrança,Correção,3.1,OK,
+2025-12-04,Carlos,PRJ-004,,Reunião,1.43,OK,Sim
+2025-10-24,João,,Controle de Inadimplência,Documentação,4.97,Retrabalho,Não
+2025-10-04,Lucas,,Organograma PMO,Validação,4.44,Urgente,Sim
+2025-11-17,Kamila,PRJ-016,,ETL,3.0,OK,Híbrido
+2026-02-11,Maria,,Dashboard Financeiro,Validação,,Aguardando diretoria,Sim
+2025-11-27,,PRJ-027,,Alinhamento,0.0,Urgente,Sim
+2026-03-22,David,,Padronização de Atas,Modelagem,1.99,,Não
+2025-11-20,,PRJ-019,,Alinhamento,,,Não
+2026-03-14,Carlos,,Painel Estratégico BSC,Alinhamento,,Depende do ERP,Sim
+2025-11-29,Estagiário,PRJ-026,,Reunião,1.5,OK,Sim
+2025-10-20,Aprendiz,PRJ-018,PADRONIZAÇÃO DE ATAS,Correção,2.31,Urgente,Híbrido
+2025-10-09,Kamila,,Captação de Leads,Alinhamento,0.0,Depende do ERP,Híbrido
+2025-12-17,Neto,,Redução de Churn,Validação,4.25,Sem dados,
+2026-02-07,Bruno,PRJ-027, Ajuste de Precificação,Alinhamento,1.0,Aguardando diretoria,Híbrido
+2026-01-02,Rafaela,,Custos por Curso EFVCG,Reunião,3.0,OK,Híbrido
+2025-11-30,Estagiário,PRJ-007,,Modelagem,2.71,OK,Híbrido
+2026-01-17,Ana,PRJ-028,,Validação,2.2,,
+2026-03-22,David,,Implantação CRM,Documentação,3.0,Urgente,Sim
+2025-11-24,João,PRJ-013,,Alinhamento,,OK,Não
+2026-02-13,Maria,,Franquia WEX,Modelagem,,Sem dados,Híbrido
+2026-03-21,Davi Donato,,Custos por Curso EFVCG,Implantação,,OK,Não
+2026-03-07,Estagiário,,Projeto de BI Operacional,Reunião,4.0,Aguardando diretoria,Não
+2025-12-21,,PRJ-009,,Alinhamento,3.74,Retrabalho,Híbrido
+2025-12-02,David,,Implantação CRM,Alinhamento,4.6,Depende do ERP,Sim
+2025-11-15,Bruno,PRJ-005,,Reunião,3.5,,Sim
+2026-03-21,,PRJ-020,,ETL,2.75,Urgente,Sim
+2026-02-05,Kamila,,Revisão de Processos,Documentação,2.0,Retrabalho,Sim
+2025-11-24,João,,Projeto de BI Operacional,Reunião,3.64,Depende do ERP,Sim
+2025-11-07,Maria,PRJ-012,,Validação,0.0,,Sim
+2026-03-21,Ana,PRJ-024,,Validação,0.0,Sem dados,Híbrido
+2025-10-03,João,,Reestruturação Comercial KOP,Validação,1.7,,Não
+2026-03-14,João,PRJ-012,,Modelagem,4.05,OK,
+2026-03-28,Maria,PRJ-025,Projeto de BI Operacional,Alinhamento,0.0,Aguardando diretoria,Sim
+2025-11-17,Neto,,Centralização Contábil,Reunião,0.0,Depende do ERP,Não
+2026-03-16,Carlos,,Gestão Monday.com,Alinhamento,0.25,OK,Híbrido
+2025-12-23,Ana,PRJ-023,Redução de Churn,Documentação,4.6,Urgente,
+2026-02-20,Kamila,,Projeto de BI Operacional,Correção,1.3,Urgente,Híbrido
+2026-01-03,Kamila,,Gestão Monday.com,Reunião,2.16,Sem dados,Sim
+2025-11-18,Bruno,PRJ-012,Controle de Inadimplência,Alinhamento,2.21,Urgente,
+2025-11-07,João,,Dashboard Financeiro,Dashboard,4.0,Aguardando diretoria,
+2025-12-22,Estagiário,,Automação Cobrança,Alinhamento,3.42,Sem dados,
+,Lucas,,Ajuste de Precificação,Correção,2.0,Retrabalho,Sim
+2026-03-08,Ana,,Dashboard Financeiro,Documentação,3.15,Urgente,Sim
+2026-03-31,João,PRJ-007,,Modelagem,3.0,Retrabalho,Sim
+2025-12-07,João,,Custos por Curso EFVCG,Implantação,6.0,Retrabalho,
+2026-03-18,Neto,,Governança de Crédito,Reunião,3.27,Urgente,Não
+,Maria,PRJ-026,,Implantação,3.0,Depende do ERP,
+2025-12-12,Estagiário,PRJ-016,NPS e Satisfação,Implantação,1.1,OK,Híbrido
+2025-11-16,Lucas,,Reestruturação Comercial KOP,Correção,2.94,Sem dados,Sim
+2025-11-09,,, Gestão de Contratos,Correção,2.0,Depende do ERP,Híbrido
+2026-02-23,Davi Donato,,Treinamento Time Comercial,Validação,3.73,Retrabalho,Sim
+2025-12-01,,,Integração ERP Fortes,Dashboard,2.8,Urgente,
+2026-01-19,Rafaela,,Projeto de BI Operacional,ETL,5.47,Retrabalho,Sim
+2026-01-17,Ana,,Custos por Curso EFVCG,Alinhamento,2.0,,Sim
+2026-03-15,Bruno,,Dashboard Financeiro,Alinhamento,0.0,,
+2026-02-23,Davi Donato,PRJ-014,,Implantação,4.01,,Sim
+2026-02-06,Carlos,PRJ-005, Pipeline Comercial EFVCG,Correção,5.95,Urgente,Não
+2025-12-07,,,Franquia  WEX,ETL,2.0,Urgente,Não
+2025-10-04,Bruno,PRJ-017,,Alinhamento,,OK,Sim
+2025-12-17,Davi Donato,,Custos por Curso EFVCG,Dashboard,1.0,,Sim
+2026-03-16,Carlos,,Redução de Churn,Implantação,0.75,Urgente,Sim
+2025-11-09,Bruno,PRJ-008,,Reunião,0.0,OK,
+,Carlos,,Integração ERP Fortes,Alinhamento,3.95,Depende do ERP,
+2026-03-06,Davi Donato,,Revisão de Processos,Implantação,1.0,,
+2026-03-15,Ana,,Melhoria do Onboarding,Reunião,,Urgente,Híbrido
+2026-03-18,João,,Gestão Monday.com,Alinhamento,4.0,Depende do ERP,Híbrido
+2026-03-20,Lucas,,Controle de Inadimplência,ETL,3.51,Aguardando diretoria,
+,Davi Donato,PRJ-015,,Documentação,2.72,Retrabalho,Híbrido
+2025-11-28,Bruno,,Painel Estratégico BSC,Validação,,Retrabalho,Híbrido
+2025-10-27,Bruno,,Ajuste de Precificação,Correção,3.0,OK,Sim
+2026-02-07,Kamila,,Melhoria do Onboarding,Dashboard,5.28,Retrabalho,Não
+2025-11-05,Bruno,,Reestruturação Comercial KOP,Alinhamento,,OK,Sim
+2026-01-15,Lucas,PRJ-022,,ETL,0.0,OK,Sim
+2026-03-24,Bruno,PRJ-008,Rotina de Indicadores,ETL,2.0,OK,Sim
+2025-11-12,Aprendiz,,Captação de Leads,Reunião,3.5,Sem dados,Não
+2026-03-24,Estagiário,, Controle de Inadimplência,Documentação,,Retrabalho,Sim

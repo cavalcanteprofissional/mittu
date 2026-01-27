@@ -1,0 +1,38 @@
+# Data Cleaning Warnings Log
+# Generated: 2026-01-26 by data_cleaning_script.py
+
+## Summary of Warnings
+Total warnings generated during data cleaning process.
+
+### Invalid Date Warnings
+These warnings occur when dates cannot be parsed due to impossible date combinations:
+you
+1. Warning: Invalid date format '31/02/2026' (could not parse), keeping as empty
+   - Issue: February 31st is not a valid date
+   - Action: Converted to empty string
+   - Row: Project 'Integração ERP fortes' (PRJ-999)
+
+2. Warning: Invalid date format '2025-13-05' (could not parse), keeping as empty
+   - Issue: Month 13 does not exist
+   - Action: Converted to empty string
+   - Row: Project 'Painel estrategico BSC'
+
+### Currency Typo Correction Warnings
+These warnings occur when keyboard typos are detected and corrected:
+
+3. Warning: Currency typo correction 'R$ 25.000,0O' -> 'R$ 25.000,00'
+   - Issue: Letter 'O' used instead of zero '0'
+   - Action: Corrected and parsed successfully
+   - Result: 25.0 (parsed as float)
+   - Row: Project with custo_previsto containing typo
+
+### Data Quality Impact
+- Invalid dates: 2 out of 76 date fields (2.6%)
+- Currency typos corrected: 1 out of 38 currency values (2.6%)
+- Overall success rate: 97.4% (with automatic corrections applied)
+
+### Recommendations
+1. Review source data for invalid dates
+2. Validate date input in data entry systems
+3. Consider implementing date validation in data collection forms
+4. Review keyboard layout issues causing currency typos

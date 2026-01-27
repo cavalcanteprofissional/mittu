@@ -1,0 +1,181 @@
+id_lancamento,data,project_id,projeto,fornecedor,categoria,descricao,valor,centro_custo,aprovado
+XDP5GJLQM5,14/02/2026,,Governança de Crédito,Fortes,Outros,Nota fiscal,"2.829,15",CC-01,S
+18HAFEYUHZ,16/03/2026,PRJ-025,,Monday.com,Serviços,Serviço recorrente,R$ 3419,CC-03,
+N7HV3IZKY2,07-10-25,PRJ-015,,Azure,Infra,Serviço recorrente,"1.759,19",cc-02,Sim
+3ZP08J3TRP,28/10/25,PRJ-014,Reestruturação Comercial KOP,Fortes,Infra,Nota fiscal,"R$ 50,00",CC-01,Nao
+GH2M5ZJA8D, 06-01-26 ,,Controle de Inadimplência,Power BI Pro,Treinamento,Serviço recorrente,"1,015.16",CC-03,S
+URTP0LZJJE,26/11/25,,Redução de Churn,Marketing Y,Infra,Mensalidade,"3,023.47",CC-03,Não
+GIGATJ9TZE,12.02.2026,PRJ-027,,Treinamento Z,Software,Nota fiscal,"R$ 1.260,15",cc-02,S
+CWBFUK9E1V,31/01/2026,PRJ-011,Dashboard Financeiro,Marketing Y,Outros,Serviço recorrente,"141,78",CC02,Nao
+HXFGCAQVKI,06/03/2026,,Ajuste de Precificação,Fortes,Taxas,Nota fiscal,R$ 2789.50,CC-03,Não
+FJFC2V37PQ, 20/11/25 ,,Pipeline Comercial EFVCG,Fortes,Taxas,Horas de consultoria,,,N
+4U89YJB1QX, 04/12/2025 ,PRJ-016,NPS E SATISFAÇÃO,Fortes,Serviços,Serviço recorrente,"50,00",CC02,Sim
+XO1BDJE153,11-11-25,PRJ-010,Revisão de Processos,Azure,Taxas,Nota fiscal,R$ 2210.20,CC02,Sim
+K5RBW2ZLAO,2025-10-14,PRJ-028,,Marketing Y,Outros,Mensalidade,R$ 4970.80,CC-01,
+ITN7S55J2O,09/12/25,,Franquia WEX,Fornecedor Local,Infra,Nota fiscal,"R$ 50,00",CC-03,Nao
+1N759IN4OL,23.01.2026,,Gestão de Contratos,Treinamento Z,Taxas,Nota fiscal,"5.914,93",CC-03,
+PSQ0OXFQ8M,01-03-26,PRJ-018,Integração ERP Fortes,Power BI Pro,Taxas,Mensalidade,"R$ 5.513,64 (estim,)",CC-03,N
+YKID91ZDFK,16/02/2026,PRJ-020,Organograma PMO,Azure,Software,Licenças,219.42,cc-02,Nao
+NYRUIWQY6Q,2025-11-16,PRJ-016,NPS e Satisfação,Fortes,Taxas,Serviço recorrente,"R$ 1.330,42",CC02,Nao
+RIUU9K9XJU,25-01-26,,Revisão de Processos,Azure,Marketing,Reembolso,R$ 1484.78,cc-02,Não
+XLPU0DK0GE,2026-03-23,,Dashboard Financeiro,Fornecedor Local,Infra,Serviço recorrente,R$ 478.67,cc-02,Não
+1IYYO4UDOJ,26/12/2025,PRJ-004,,Google,Treinamento,Licenças,R$ 2553,CC-03,Nao
+U6HC36KOF8, 29/11/25 ,,Gestão Monday.com,Fortes,Treinamento,Mensalidade,"R$ 6.005,37",,Não
+5X4W7KYHQI,16/02/26,PRJ-024,Melhoria do Onboarding,Monday.com,Software,Reembolso,"50,00",CC-03,Nao
+VA2IEUC1HH,25/01/2026,PRJ-003,,Marketing Y,Infra,Nota fiscal,"R$ 2.056,10",,Sim
+A2ILGB0S0R,14/11/2025,PRJ-024,,Monday.com,Marketing,Serviço recorrente,"R$ -1.911,85",,Não
+OYR6CCVCJW, 26/01/2026 ,,Organograma PMO ,Fornecedor Local,Taxas,Licenças,"724,99",,N
+QIMQODPXNF,30.10.2025,PRJ-008,,Treinamento Z,Software,Mensalidade,"R$ 377,54 (estim,)",CC-01,S
+O57P6BKLDS,28.02.2026,PRJ-024,,Consultoria X,Taxas,Horas de consultoria,"R$ 50,00",CC-01,Nao
+WXA73JGZLM,18.01.2026,,Redução de Churn,Azure,Serviços,Nota fiscal,"R$ 2.658,56",CC-03,S
+FLL7V5F1BC,2026-02-13,PRJ-020,,Treinamento Z,Taxas,Horas de consultoria,R$ 1613.20,CC02,S
+BOVAKHEJLA,12.12.2025,PRJ-028,,Power BI Pro,Serviços,Setup,"7.057,73",CC-03,Não
+5UUZPEAL2W, 11/10/25 ,PRJ-019,Gestão Monday.com,Monday.com,Software,Horas de consultoria,"R$ 470,29 (estim,)",CC-02,S
+SES6M033IF,2025-12-26,,Treinamento Time Comercial,Marketing Y,Serviços,Serviço recorrente,"R$ 50,00",CC-03,Sim
+X9L8LPQW2V,26/02/26,PRJ-026,,Monday.com,Marketing,Mensalidade,"4.316,26",CC02,Sim
+U80B6UGVS8,24.10.2025,PRJ-026,,Treinamento Z,Software,Nota fiscal,"R$ 3.709,27 (estim,)",cc-02,
+NKOMV2XCDY,21.01.2026,PRJ-013,,Fortes,Infra,Reembolso,"R$ 50,00 (estim,)",,Não
+DUXLEZ896D,17/03/26,PRJ-016,,Power BI Pro,Marketing,Licenças,"R$ 7.461,39",cc-02,Não
+D145BM1ENF, 2025-11-05 ,,Revisão de Processos,Consultoria X,Taxas,Horas de consultoria,"R$ 1.930,28",cc-02,
+3Q4N89QKNS,2026-01-23,,Governança de Crédito,Consultoria X,Outros,Setup,"R$ 1.028,50 (estim,)",CC-02,Nao
+J6FP8HQMAB,10/02/2026,PRJ-008,,Fornecedor Local,Infra,Setup,"1.295,72",CC-01,Nao
+3ZEZQACJ4T,2025-12-25,PRJ-017,,Fornecedor Local,Treinamento,Mensalidade,"1,658.56",CC-02,Nao
+TWUZKAMUGY,17/10/2025,PRJ-003,,Fornecedor Local,Infra,Mensalidade,,,N
+A2M0W10LBT,12/10/25,PRJ-010,Organograma PMO,Consultoria X,Outros,Nota fiscal,R$ 7432,CC-03,S
+HB7S9TJ1GM,26/01/2026,,NPS e Satisfação,Azure,Outros,Reembolso,"1.588,67",CC-01,Nao
+7S20CV3TLC,2025-12-26,PRJ-013,Mittu SAF Go-to-Market,Fortes,Infra,Horas de consultoria,R$ 3600,CC02,Não
+98CWN2Y8FV,30.12.2025,PRJ-020,Controle de Inadimplência,Treinamento Z,Software,Setup,"R$ 2.094,46",CC-03,Nao
+UTOXIE0RNU,24-01-26,PRJ-010,Plano de Metas 2026,Fortes,Outros,Licenças,429.09,CC-02,N
+9389YZTKKF,19/10/25,PRJ-018,,Consultoria X,Outros,Licenças,R$ 577.95,CC-01,Não
+E5COZROOUE,24-02-26,,Implantação CRM,Monday.com,Taxas,Mensalidade,"3.328,47",CC-03,N
+BEFFLZM764,2025-11-16,PRJ-004,,Fortes,Serviços,Reembolso,,cc-02,Não
+ZV4U3BBXUX,01.03.2026,,Centralização Contábil,Power BI Pro,Marketing,Reembolso,"R$ 939,94",CC-03,N
+CPRHVLZ049,25/03/26,PRJ-026,,Consultoria X,Outros,Licenças,R$ 325.05,CC-01,Nao
+P8637ZGF9Q,13-10-25,PRJ-009,,Fortes,Treinamento,Mensalidade,"R$ 4.657,05",CC02,N
+V4YKADEJNO,,PRJ-007,Implantação CRM,Azure,Treinamento,Mensalidade,R$ 2036.90,CC-02,Nao
+O2M71HSSBE, 09.03.2026 ,,Organograma PMO,Monday.com,Outros,Horas de consultoria,R$ 1444.42,CC-02,N
+M3TZK3NY9V,09.01.2026,,Ajuste de Precificação,Azure,Marketing,Horas de consultoria,"50,00",CC-03,N
+3IUZGPPOHS,11.03.2026,,Governança de Crédito,Treinamento Z,Outros,Nota fiscal,"3,190.66",CC-01,
+6MM1ZXYVGI,12/02/26,PRJ-014,,Fornecedor Local,Infra,Setup,,cc-02,Nao
+T6OM1FB8C7,21-02-26,,Integração ERP Fortes,Fortes,Taxas,Horas de consultoria,"R$ 2.913,18",,Nao
+TWBOZD1AT7,2026-02-28,,Franquia WEX,Power BI Pro,Taxas,Horas de consultoria,R$ 50.00,CC-02,Nao
+76G5G79OR7,2026-02-24,PRJ-018,,Fortes,Software,Mensalidade,"2.512,36",,Sim
+SJ3L0XZAMK,12/02/26,,Centralização Contábil,Marketing Y,Serviços,Serviço recorrente,"R$ 1.158,72 (estim,)",CC02,S
+QJLUUJMIYQ, 2025-12-22 ,PRJ-002, Integração ERP Fortes,Consultoria X,Treinamento,Reembolso,R$ 5284.81,CC-03,Nao
+Q9NZ61231Y,2025-11-26,,Gestão Monday.com,Google,Marketing,Horas de consultoria,R$ 6877.14,cc-02,Sim
+PYZR6QCEOU,2026-02-15,,Treinamento Time Comercial,Fornecedor Local,Treinamento,Reembolso,"R$ 2.130,92 (estim,)",CC-03,Sim
+97C7BO119X,12/10/25,PRJ-024,Melhoria do Onboarding,Power BI Pro,Infra,Horas de consultoria,"2.602,91",CC02,S
+T0IAAKYTT3,29/12/2025,PRJ-025,,Marketing Y,Treinamento,Licenças,"R$ 50,00",CC-02,
+BVZB0OIH5C,2025-10-05,, Ajuste de Precificação,Fornecedor Local,Infra,Setup,"R$ 50,00 (estim,)",CC-03,N
+OJUV0GYUBM,2025-12-17,PRJ-019,,Power BI Pro,Outros,Serviço recorrente,"1.384,43",CC02,S
+QCOOTNJLCQ,27-11-25,PRJ-005,,Monday.com,Software,Serviço recorrente,"3,016.76",CC-02,Sim
+R5L8A78E9R,18.11.2025,PRJ-018,,Marketing Y,Taxas,Serviço recorrente,781.51,CC02,Não
+RD9Q46NOUH,31-12-25,,Ajuste de Precificação,Consultoria X,Software,Licenças,R$ 50.00,,N
+YJ38XRG2GZ,2026-02-23,,Governança de Crédito,Treinamento Z,Serviços,Serviço recorrente,,CC-01,N
+CFHQCW76XA,02/10/25,PRJ-016,,Fornecedor Local,Marketing,Horas de consultoria,"R$ 656,32",,
+DDFGS3JONO,22/03/26,PRJ-011,,Marketing Y,Taxas,Setup,"1.279,52",CC-01,
+ZC4XL9967I,05.01.2026,PRJ-017,Dashboard Financeiro,Treinamento Z,Infra,Mensalidade,,CC-03,Nao
+1ZOCFI4O6L,20/12/2025,PRJ-019,Gestão de Contratos,Consultoria X,Outros,Reembolso,"2,127.07",,
+BJ9RM7PYXD,07.03.2026,,Melhoria  do  Onboarding,Fortes,Outros,Setup,"1,058.41",CC-01,Nao
+LMJEGQTOAM, 21-12-25 ,PRJ-004,,Google,Marketing,Serviço recorrente,"-1,530.84",CC02,Sim
+GJJFGJK2N7,02.12.2025,PRJ-014,,Treinamento Z,Marketing,Serviço recorrente,"R$ 842,66",CC-01,Não
+49EL8HL88K,24/12/25,PRJ-023,,Treinamento Z,Marketing,Nota fiscal,"R$ 50,00",CC02,Nao
+A07H23C42Y,01.03.2026,,Governança de Crédito,Consultoria X,Taxas,Licenças,"R$ 50,00",CC-03,Não
+7YT2M6TWD1,31.01.2026,,Centralização Contábil,Monday.com,Serviços,Reembolso,R$ 6323,,
+SSUUQO1VSM, 19/01/2026 ,,Revisão de Processos,Azure,Treinamento,Mensalidade,"50,00",CC-01,Sim
+PZLK3E4XYF,22.11.2025,,Plano de Metas 2026,Marketing Y,Marketing,Setup,R$ 2253.74,cc-02,N
+5QPAHKZ2U2,17/11/25,PRJ-006,Franquia WEX,Fornecedor Local,Serviços,Licenças,"50,00",CC02,Sim
+M4W3ZKWDEE,02/03/26,PRJ-007,,Fortes,Software,Setup,"50,00",CC-02,N
+9TRFLQBMAE,02.02.2026,PRJ-009,Automação Cobrança,Power BI Pro,Marketing,Serviço recorrente,R$ 4577,CC02,
+BIK2U1RSUJ,22/02/2026,PRJ-002,Integração ERP Fortes,Fornecedor Local,Outros,Licenças,R$ 2583.57,CC-01,
+QM3P91I3VM,2026-03-17,PRJ-016,NPS e Satisfação,Power BI Pro,Serviços,Serviço recorrente,"R$ 1.907,08",CC-02,Não
+U8S63E1OCJ,13-11-25,,Ajuste de Precificação,Consultoria X,Taxas,Nota fiscal,"R$ 2.182,62",CC-02,
+NC21O0Z5QR,06.11.2025,PRJ-019,,Azure,Outros,Nota fiscal,"R$ 1.427,65 (estim,)",CC-01,
+HJ3MUURMYB,14/02/26,,PMO Estratégico,Google,Taxas,Nota fiscal,"R$ 2.188,17 (estim,)",CC-01,Sim
+5K55DMCXXB,2026-01-18,,Organograma PMO,Fortes,Taxas,Reembolso,992.54,CC02,
+39PECN0DL5, 10/02/26 ,PRJ-005,pipeline comercial efvcg,Consultoria X,Treinamento,Nota fiscal,"R$ 50,00 (estim,)",CC-02,
+P0WFOY4DD1,,,Gestão de Contratos,Power BI Pro,Infra,Horas de consultoria,"50,00",CC-02,Não
+KSS0KB68RE,26/03/2026,PRJ-012,Controle de Inadimplencia,Treinamento Z,Taxas,Serviço recorrente,"R$ 50,00",CC-01,Nao
+81ACJBC2SW,02.01.2026,,Melhoria do Onboarding,Fornecedor Local,Outros,Horas de consultoria,"1.238,45",CC02,Sim
+FLV1XXLP8I,21.10.2025,,Padronização de Atas,Marketing Y,Software,Horas de consultoria,"R$ 2.833,03",,N
+8S2ZGE2J51,2025-10-04,PRJ-010,,Azure,Infra,Nota fiscal,"50,00",,Sim
+GF16YE0A4A, 08-02-26 ,PRJ-023,,Azure,Treinamento,Licenças,"4.007,07",CC-02,Não
+6L3UEYBISB,17/03/26,,Revisão de Processos,Power BI Pro,Software,Horas de consultoria,"R$ 6.325,07 (estim,)",cc-02,Nao
+8910T2F7AT,17.12.2025,PRJ-015,,Azure,Infra,Mensalidade,50.00,CC02,
+76SZN9DDE3,2025-10-16,,Reestruturacao Comercial KOP,Google,Marketing,Serviço recorrente,"R$ 1.558,14",CC-03,Não
+CH2VFFQOT8,29-03-26,PRJ-005,,Marketing Y,Treinamento,Licenças,R$ 50.00,CC-01,Sim
+DIMSYJ9BOQ,2025-10-11,PRJ-020,,Fornecedor Local,Serviços,Mensalidade,R$ 50.00,CC-02,Sim
+DV7C9HX3D4,11-01-26,PRJ-011,,Monday.com,Software,Mensalidade,,CC-01,Não
+GK5BWIKOTC,06/01/26,,Custos por Curso EFVCG,Fortes,Treinamento,Setup,"5.112,80",CC-03,N
+ZR2MULJAVB,,PRJ-025,,Fortes,Software,Nota fiscal,,,Nao
+7C9H42M44G,2026-03-18,,Treinamento Time Comercial,Monday.com,Outros,Reembolso,R$ 274,,Sim
+BCVARLW3MG,18/11/25,,Gestão Monday.com,Monday.com,Software,Mensalidade,"R$ 1.710,74",CC-03,Não
+L90PXRLZU6,04/01/26,,Gestão de Contratos,Monday.com,Serviços,Reembolso,R$ 50.00,CC-02,S
+8BV78HU7F0,29.03.2026,PRJ-006,,Marketing Y,Infra,Licenças,"R$ 4.222,11",CC-01,
+YM2ZBPPFO5,,,PMO Estratégico,Monday.com,Marketing,Horas de consultoria,"R$ 6.108,36",CC02,N
+DM5FC79M96, 09-10-25 ,,Gestão de Contratos,Azure,Treinamento,Reembolso,"R$ 2.712,34",CC02,Não
+IBU4FMPKXV,19.02.2026,PRJ-018,,Marketing Y,Software,Mensalidade,"R$ 5.082,22",CC-03,Nao
+XNNNGBPJ4U,29/01/26,,Dashboard Financeiro,Consultoria X,Outros,Reembolso,R$ 4415,CC-01,
+PT5R5RC6ZS,19/02/2026,PRJ-007,,Fornecedor Local,Outros,Serviço recorrente,R$ 3358,,Não
+9P9W4J66CN,2025-11-24,PRJ-004,,Power BI Pro,Marketing,Licenças,"R$ 3.291,48 (estim,)",,S
+U8DD22555J,29/10/25,,PMO Estratégico ,Treinamento Z,Marketing,Serviço recorrente,R$ 2693.39,CC-02,Nao
+RJNM2L44Y9,10-01-26,PRJ-024,Melhoria do Onboarding,Marketing Y,Serviços,Licenças,,CC02,Nao
+53SFLSE45B,24/11/25,PRJ-007,,Marketing Y,Outros,Setup,"R$ 3.210,75 (estim,)",CC-02,Sim
+YIRQ8RTM4J,27.01.2026,PRJ-018,Padronização de Atas,Google,Infra,Mensalidade,"3.642,52",CC-02,N
+58YREG2IV7,22-11-25,,Plano de Metas 2026,Fortes,Treinamento,Horas de consultoria,"R$ 4.675,12 (estim,)",CC02,Nao
+84UVKYRMJL, 27/02/2026 ,PRJ-027,,Fortes,Infra,Reembolso,"1,757.63",CC-03,Nao
+3OLFARK6O0,,PRJ-028,,Marketing Y,Infra,Reembolso,"1,221.64",CC-03,N
+GDEJ31GYMD,2025-12-16,,Integração ERP Fortes,Monday.com,Serviços,Reembolso,"R$ 165,10 (estim,)",CC02,Nao
+QHEYTO5F9M,14.10.2025,PRJ-025,Projeto de BI Operacional,Treinamento Z,Serviços,Licenças,"R$ 50,00 (estim,)",CC-02,Sim
+G1R1DWWO8N,02/10/25,PRJ-012,Controle de Inadimplência,Azure,Marketing,Setup,"1,578.38",CC-01,Nao
+I5LDSLCB8Q,,PRJ-026,Automação Cobrança,Fornecedor Local,Marketing,Serviço recorrente,"603,48",CC-03,Não
+E0VGNXB5JT,12/01/2026,PRJ-021,,Azure,Marketing,Mensalidade,R$ 1756,CC-03,Sim
+APDSWZP6SW,2026-03-29,PRJ-008,Rotina  de  Indicadores,Fortes,Software,Nota fiscal,"R$ 729,52",CC-02,N
+RH7LAY64YF,30/03/26,PRJ-019,,Google,Outros,Serviço recorrente,"R$ -5.357,87",CC-03,Sim
+54MYPE46AE, 07/12/25 ,,Dashboard Financeiro,Consultoria X,Infra,Licenças,"R$ 2.029,58 (estim,)",,Nao
+RP5GE094D6,25-01-26,,Treinamento Time Comercial,Treinamento Z,Outros,Serviço recorrente,R$ 1418,CC-02,N
+OBJLZY1UU9,03/11/25,PRJ-028,Dashboard Financeiro,Monday.com,Marketing,Serviço recorrente,R$ 584,,Sim
+6WA7SQRF1L,14/03/26,PRJ-022,Gestão de Contratos,Monday.com,Infra,Mensalidade,R$ 571.74,,
+L90AOBT328, 24/02/26 ,PRJ-007,Implantação CRM,Fortes,Marketing,Serviço recorrente,"R$ 50,00",CC-03,S
+RXZE1HM38K,25-01-26,PRJ-021,Organograma PMO,Fornecedor Local,Infra,Reembolso,"R$ 621,24",CC-02,S
+OQ2ZDO74V1,2026-03-06,PRJ-026,,Treinamento Z,Treinamento,Reembolso,R$ 50.00,,Não
+6YG3DXVL5P,27/02/26,,Painel Estratégico BSC ,Marketing Y,Infra,Horas de consultoria,,cc-02,S
+L0THHZY7EZ,09-02-26,,Implantação CRM,Consultoria X,Marketing,Serviço recorrente,R$ 2189,cc-02,
+T5PADNBCJ2,20/03/26,PRJ-005,,Fortes,Taxas,Licenças,"R$ 4.933,82",CC-01,
+UIXNS2ZYBN,24/01/2026,,Controle de Inadimplência,Power BI Pro,Outros,Reembolso,"3.334,77",,Sim
+X1TV18KGYG,2026-01-22,PRJ-022,,Consultoria X,Taxas,Serviço recorrente,"R$ 50,00",CC-01,S
+B7V1W4K2TC,02-10-25,PRJ-022,,Monday.com,Marketing,Setup,,,Sim
+LK8WRU1XEM,2025-12-29,,NPS e Satisfação,Marketing Y,Taxas,Serviço recorrente,,CC-02,Sim
+63N2QB6GS8,07-01-26,,Franquia WEX,Consultoria X,Outros,Serviço recorrente,R$ 1451.04,CC-03,Sim
+91X70FQLDB,2025-10-27,PRJ-024,,Fortes,Marketing,Mensalidade,R$ 678.31,CC-02,Nao
+W1VZC7D2KD,08/01/2026,PRJ-003,PMO Estratégico,Treinamento Z,Treinamento,Horas de consultoria,"R$ 50,00 (estim,)",CC-01,S
+Y620N8TTEA,17-02-26,PRJ-021,,Power BI Pro,Marketing,Serviço recorrente,,cc-02,Não
+WJEYUB19TX,15.03.2026,,Franquia WEX,Google,Infra,Reembolso,"R$ 5.583,66",CC-01,Não
+6LQWLVUNLP, 2026-03-17 ,,Pipeline Comercial EFVCG,Azure,Infra,Setup,"4,097.22",CC-03,
+KTGV44FTJ5,24/12/25,,Redução de Churn,Google,Taxas,Mensalidade,"R$ 8.668,17 (estim,)",,
+TXFO6V4ESD,10.10.2025,PRJ-005,,Monday.com,Marketing,Mensalidade,R$ 50,,
+MHRCNBH6NQ,2026-02-22,PRJ-015,,Treinamento Z,Software,Mensalidade,,cc-02,Sim
+XNX4SN6SM5,07.12.2025,,Padronização de Atas,Treinamento Z,Outros,Horas de consultoria,"R$ 352,76 (estim,)",CC-01,N
+V3XOLEYRVX,2025-12-11,,Redução de Churn,Power BI Pro,Software,Setup,"R$ 3.679,96",,N
+8VUAZXKDQ9,2025-10-15,PRJ-002,,Treinamento Z,Serviços,Setup,"R$ 2.327,10 (estim,)",,Não
+QVINDH4SPF,2025-12-07,,Custos por Curso EFVCG,Google,Serviços,Horas de consultoria,,,Sim
+A7YPP5ZP7R,2026-03-18,,Automação Cobrança,Power BI Pro,Infra,Serviço recorrente,"R$ 4.248,48 (estim,)",CC-03,N
+JA0ASSNH2O,22-10-25,PRJ-028,,Google,Serviços,Horas de consultoria,R$ 4170,cc-02,Nao
+2RNTJLMZ04,24/03/26,,Implantação CRM,Google,Taxas,Setup,"3.635,30",CC-03,Não
+ADF7PCHCBN,07/03/2026,PRJ-006,,Power BI Pro,Marketing,Reembolso,R$ 5416.12,CC-03,N
+SH2SZWYMX9,2025-10-03,PRJ-028,,Google,Infra,Nota fiscal,"50,00",CC-03,S
+6M8JVH7UJO,24.10.2025,PRJ-006,Melhoria do Onboarding,Google,Marketing,Mensalidade,R$ 50.00,cc-02,Sim
+U118QQVAEC,25-02-26,,Captação de Leads,Marketing Y,Taxas,Reembolso,"R$ 5.049,26",cc-02,S
+3C7RM6J8Y6, 03-12-25 ,PRJ-015,Implantação CRM,Treinamento Z,Taxas,Setup,"R$ 50,00",CC-02,Nao
+8RA484NL65, 09/11/2025 ,PRJ-024,,Fortes,Treinamento,Setup,,,Nao
+M41QESLAYN,17/01/26,PRJ-005,Pipeline Comercial EFVCG,Google,Infra,Licenças,R$ -1804,cc-02,Não
+ZN4KGEUIDJ,2026-01-02,PRJ-004,Governança de Crédito,Marketing Y,Marketing,Horas de consultoria,"R$ 2.063,89 (estim,)",CC-02,Não
+E6WTLRJ4BD,,,NPS e Satisfação,Consultoria X,Software,Setup,"R$ 917,44 (estim,)",CC02,
+MYVUXT9KLS,20-02-26,PRJ-021,,Treinamento Z,Software,Horas de consultoria,R$ 4453,CC02,
+CFILKJXJQ5,16.01.2026,,Padronização de Atas,Monday.com,Taxas,Serviço recorrente,R$ 3510.30,CC02,S
+D7RB1S9DWD,04/12/2025,PRJ-007,,Power BI Pro,Infra,Setup,"R$ 50,00",cc-02,S
+4LR9TJQ8ZG,,,Integração ERP Fortes,Treinamento Z,Taxas,Reembolso,R$ 2214,,S
+NJKA34MQA7,2026-02-16,PRJ-023,Redução de Churn,Treinamento Z,Infra,Mensalidade,"2,715.15",cc-02,N
+ONJPI163YK,2026-01-10,PRJ-004,Governança  de  Crédito,Fornecedor Local,Outros,Licenças,"50,00",CC-01,Não
+8A9KEPADAH,2026-02-03,PRJ-016,NPS  e  Satisfação,Power BI Pro,Infra,Nota fiscal,"3,142.48",cc-02,S
+G433E1I1P0, 08/12/25 ,,MITTU SAF GO-TO-MARKET,Azure,Serviços,Horas de consultoria,"2,145.34",CC-01,N

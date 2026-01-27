@@ -1,0 +1,32 @@
+Data Cleaning Report
+==================================================
+Generated: 2026-01-27 08:56:19
+
+File: Projetos_raw.csv
+  Total Records: 36
+  Dates Standardized: 72
+  Conclusao Standardized: 36
+  Currency Cleaned: 36
+  Priority Lowercase: 36
+  Status Lowercase: 36
+  Success Rate: 100.0%
+
+File: Custos_raw.csv
+  Total Records: 180
+  Dates Standardized: 180
+  Currency Cleaned: 180
+  Centro Custo Lowercase: 180
+  Aprovado Standardized: 180
+  Success Rate: 100.0%
+
+File: Horas_raw.csv
+  Total Records: 220
+  Dates Standardized: 220
+  Time Converted: 185
+  Remote Standardized: 220
+  Success Rate: 100.0%
+
+Summary:
+  Total records processed: 436
+  Files processed: 3
+  Success rate: 100%
