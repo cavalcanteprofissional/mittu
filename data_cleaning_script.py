@@ -24,6 +24,7 @@ Date: 2026-01-26
 import pandas as pd
 import re
 import os
+import csv
 import unicodedata
 from datetime import datetime
 from pathlib import Path
@@ -122,7 +123,7 @@ class DataCleaner:
         if pd.isna(value) or value == '' or str(value).lower() in ['null', 'none', 'nan', 'n/a']:
             return ''
             
-        val_str = str(value).strip()
+        val_str = str(value).strip().strip('"\'')
         
         # Remove percentage symbol if present
         val_str = val_str.replace('%', '')
@@ -137,11 +138,11 @@ class DataCleaner:
                 return ''
             # Cap at 100
             num_value = min(100, num_value)
-            # Return with comma decimal and % symbol
+            # Return with point decimal and % symbol (standardized format)
             if num_value.is_integer():
                 return f"{int(num_value)}%"
             else:
-                return f"{str(num_value).replace('.', ',')}%"
+                return f"{num_value}%"
         else:
             # US format with point decimal or integer
             try:
