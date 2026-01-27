@@ -403,7 +403,7 @@ class DataCleaner:
         - "0:15" → 0.25 hours
         """
         if pd.isna(time_string) or time_string == '':
-            return None
+            return ''
             
         time_str = str(time_string).strip().strip('"\'')
         
@@ -478,6 +478,41 @@ class DataCleaner:
             print(f"Warning: Unknown remote value '{value}', keeping as original")
             return value_str
     
+    def finalize_dataframe(self, df):
+        """Final cleanup of DataFrame to ensure no NaN values remain"""
+        # Replace all pandas NaN with empty string
+        df = df.fillna('')
+        
+        # Convert any remaining string representations of null to empty string
+        null_strings = ['nan', 'null', 'none', 'n/a', 'undefined', 'NaN', 'NULL']
+        for col in df.columns:
+            # Convert to string for comparison, then replace null strings
+            df[col] = df[col].astype(str).replace(null_strings, '', regex=False)
+        
+        return df
+    
+    def validate_clean_output(self, df, filename):
+        """Validate that cleaned dataframe has no null values"""
+        # Check for pandas NaN values
+        null_count = df.isnull().sum().sum()
+        
+        # Check for string representations of null (should be handled by finalize_dataframe)
+        string_nulls = 0
+        null_patterns = ['nan', 'null', 'none', 'n/a', 'undefined']
+        
+        for col in df.columns:
+            for pattern in null_patterns:
+                string_nulls += (df[col].astype(str).str.lower() == pattern).sum()
+        
+        if null_count > 0 or string_nulls > 0:
+            print(f"Warning: {filename} still contains null values")
+            print(f"  Pandas NaN: {null_count}")
+            print(f"  String nulls: {string_nulls}")
+            return False
+        else:
+            print(f"Validation passed: {filename} has no null values")
+            return True
+    
     def clean_projetos_raw(self):
         """Clean Projetos_raw.csv"""
         print("Cleaning Projetos_raw.csv...")
@@ -495,9 +530,12 @@ class DataCleaner:
         df['conclusao'] = df['conclusao'].apply(self.standardize_conclusao)
         df['custo_previsto'] = df['custo_previsto'].apply(self.standardize_currency)
         
+        # Final cleanup and validation
+        df = self.finalize_dataframe(df)
+        
         # Save cleaned data
         output_path = self.clean_path / 'Projetos_clean.csv'
-        df.to_csv(output_path, index=False, encoding='utf-8')
+        df.to_csv(output_path, index=False, encoding='utf-8', na_rep='')
         
         # Log statistics
         dates_cleaned = df['inicio'].notna().sum() + df['prazo'].notna().sum()
@@ -518,6 +556,9 @@ class DataCleaner:
         })
         
         print(f"Projetos_clean.csv created with {original_count} records")
+        
+        # Validate output
+        self.validate_clean_output(df, 'Projetos_clean.csv')
         return True
     
     def clean_custos_raw(self):
@@ -535,9 +576,12 @@ class DataCleaner:
         df['centro_custo'] = df['centro_custo'].astype(str).str.lower()
         df['aprovado'] = df['aprovado'].apply(self.standardize_approval)
         
+        # Final cleanup and validation
+        df = self.finalize_dataframe(df)
+        
         # Save cleaned data
         output_path = self.clean_path / 'Custos_clean.csv'
-        df.to_csv(output_path, index=False, encoding='utf-8')
+        df.to_csv(output_path, index=False, encoding='utf-8', na_rep='')
         
         # Log statistics
         dates_cleaned = df['data'].notna().sum()
@@ -556,6 +600,9 @@ class DataCleaner:
         })
         
         print(f"Custos_clean.csv created with {original_count} records")
+        
+        # Validate output
+        self.validate_clean_output(df, 'Custos_clean.csv')
         return True
     
     def clean_horas_raw(self):
@@ -572,9 +619,12 @@ class DataCleaner:
         df['horas'] = df['horas'].apply(self.convert_to_hours)
         df['remoto'] = df['remoto'].apply(self.standardize_remote)
         
+        # Final cleanup and validation
+        df = self.finalize_dataframe(df)
+        
         # Save cleaned data
         output_path = self.clean_path / 'Horas_clean.csv'
-        df.to_csv(output_path, index=False, encoding='utf-8')
+        df.to_csv(output_path, index=False, encoding='utf-8', na_rep='')
         
         # Log statistics
         dates_cleaned = df['data'].notna().sum()
@@ -591,6 +641,9 @@ class DataCleaner:
         })
         
         print(f"Horas_clean.csv created with {original_count} records")
+        
+        # Validate output
+        self.validate_clean_output(df, 'Horas_clean.csv')
         return True
     
     def clean_kpis_raw(self):
@@ -605,9 +658,12 @@ class DataCleaner:
         # Apply transformations
         df['meta'] = df['meta'].apply(self.standardize_meta)
         
+        # Final cleanup and validation
+        df = self.finalize_dataframe(df)
+        
         # Save cleaned data
         output_path = self.clean_path / 'KPIs_clean.csv'
-        df.to_csv(output_path, index=False, encoding='utf-8')
+        df.to_csv(output_path, index=False, encoding='utf-8', na_rep='')
         
         # Log statistics
         meta_cleaned = df['meta'].notna().sum()
@@ -620,6 +676,9 @@ class DataCleaner:
         })
         
         print(f"KPIs_clean.csv created with {original_count} records")
+        
+        # Validate output
+        self.validate_clean_output(df, 'KPIs_clean.csv')
         return True
     
     def extract_from_excel(self):

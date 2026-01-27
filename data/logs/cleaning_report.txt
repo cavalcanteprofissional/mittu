@@ -1,6 +1,6 @@
 Data Cleaning Report
 ==================================================
-Generated: 2026-01-27 11:45:39
+Generated: 2026-01-27 12:20:07
 
 File: Projetos_raw.csv
   Total Records: 36
@@ -22,7 +22,7 @@ File: Custos_raw.csv
 File: Horas_raw.csv
   Total Records: 220
   Dates Standardized: 220
-  Time Converted: 185
+  Time Converted: 220
   Remote Standardized: 220
   Success Rate: 100.0%
 
