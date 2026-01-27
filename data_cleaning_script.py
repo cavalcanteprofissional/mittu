@@ -8,6 +8,7 @@ This script cleans and standardizes the following CSV files:
 - Projetos_raw.csv: Projects data
 - Custos_raw.csv: Cost entries
 - Horas_raw.csv: Time tracking entries
+- KPIs_raw.csv: KPIs and metrics data
 
 Transformations Applied:
 - Dates: Standardized to YYYY-MM-DD format
@@ -247,6 +248,71 @@ class DataCleaner:
             # If not in mapping, return the cleaned original
             print(f"Warning: Unknown status '{value}' -> '{status_str}', keeping as cleaned")
             return status_str
+    
+    def standardize_meta(self, value):
+        """
+        Standardize meta column to percentage format
+        
+        Handles:
+        - Currency to percentage conversion: "R$ 0,95" → "95%"
+        - Existing percentages: "90%" → "90%"
+        - Empty/null values preservation
+        """
+        if pd.isna(value) or value == '' or str(value).lower() in ['null', 'none', 'nan', 'n/a']:
+            return ''
+        
+        meta_str = str(value).strip().strip('"\'')
+        
+        # Check if it's a currency value (starts with R$)
+        if meta_str.startswith('R$'):
+            # Extract numeric part after currency symbol
+            numeric_part = meta_str.replace('R$', '').strip()
+            
+            # Convert Brazilian decimal format to float
+            # Remove thousands separators (dots) and replace decimal comma with dot
+            if '.' in numeric_part and ',' in numeric_part:
+                # Brazilian format: "1.234,56" → 1234.56
+                last_comma_pos = numeric_part.rfind(',')
+                last_dot_pos = numeric_part.rfind('.')
+                if last_comma_pos > last_dot_pos:
+                    numeric_part = numeric_part.replace('.', '').replace(',', '.')
+                else:
+                    numeric_part = numeric_part.replace(',', '')
+            elif ',' in numeric_part:
+                # Format like "0,95" → 0.95
+                numeric_part = numeric_part.replace('.', '').replace(',', '.')
+            
+            try:
+                numeric_value = float(numeric_part)
+                # Convert to percentage (multiply by 100)
+                percentage_value = numeric_value * 100
+                return f"{percentage_value:.0f}%"
+            except ValueError:
+                print(f"Warning: Could not parse currency '{value}', keeping as empty")
+                return ''
+        
+        # Check if it's already a percentage
+        elif '%' in meta_str:
+            # Clean up existing percentage format
+            try:
+                # Extract numeric part before %
+                if meta_str.endswith('%'):
+                    num_part = meta_str[:-1].strip()
+                    # Handle decimal comma/point in percentage
+                    if ',' in num_part:
+                        num_part = num_part.replace(',', '.')
+                    percentage_value = float(num_part)
+                    return f"{percentage_value:.0f}%"
+                else:
+                    # % in middle of string, handle as-is
+                    return meta_str
+            except ValueError:
+                print(f"Warning: Could not parse percentage '{value}', keeping as is")
+                return meta_str
+        
+        # If not currency or percentage, return as-is
+        else:
+            return meta_str
     
     def standardize_currency(self, currency_string):
         """
@@ -527,6 +593,35 @@ class DataCleaner:
         print(f"Horas_clean.csv created with {original_count} records")
         return True
     
+    def clean_kpis_raw(self):
+        """Clean KPIs_raw.csv"""
+        print("Cleaning KPIs_raw.csv...")
+        df = self.load_raw_data('KPIs_raw.csv')
+        if df is None:
+            return False
+            
+        original_count = len(df)
+        
+        # Apply transformations
+        df['meta'] = df['meta'].apply(self.standardize_meta)
+        
+        # Save cleaned data
+        output_path = self.clean_path / 'KPIs_clean.csv'
+        df.to_csv(output_path, index=False, encoding='utf-8')
+        
+        # Log statistics
+        meta_cleaned = df['meta'].notna().sum()
+        
+        self.quality_report.append({
+            'file': 'KPIs_raw.csv',
+            'total_records': original_count,
+            'meta_standardized': meta_cleaned,
+            'success_rate': f"{(original_count / original_count) * 100:.1f}%"
+        })
+        
+        print(f"KPIs_clean.csv created with {original_count} records")
+        return True
+    
     def extract_from_excel(self):
         """Extract data from raw Excel files to CSV format"""
         print("Excel extraction mode enabled. Extracting from raw.xlsx files...")
@@ -619,6 +714,7 @@ class DataCleaner:
         success &= self.clean_projetos_raw()
         success &= self.clean_custos_raw()
         success &= self.clean_horas_raw()
+        success &= self.clean_kpis_raw()
         
         if success:
             self.generate_quality_report()

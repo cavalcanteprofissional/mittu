@@ -1,6 +1,6 @@
 Data Cleaning Report
 ==================================================
-Generated: 2026-01-27 11:31:28
+Generated: 2026-01-27 11:45:39
 
 File: Projetos_raw.csv
   Total Records: 36
@@ -26,7 +26,12 @@ File: Horas_raw.csv
   Remote Standardized: 220
   Success Rate: 100.0%
 
+File: KPIs_raw.csv
+  Total Records: 5
+  Meta Standardized: 5
+  Success Rate: 100.0%
+
 Summary:
-  Total records processed: 436
-  Files processed: 3
+  Total records processed: 441
+  Files processed: 4
   Success rate: 100%

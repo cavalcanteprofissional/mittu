@@ -1,0 +1,6 @@
+kpi,meta,periodo,fonte,obs
+% Projetos em dia,95%,Trimestral,Power BI,Definir regra de cálculo
+Custo Realizado vs Previsto,90%,,Planilha,Validar com diretoria
+Horas por Projeto,10%,Trimestral,Planilha,
+Retrabalho (%),95%,Semanal,Power BI,Validar com diretoria
+Prazo Médio de Atraso (dias),90%,Semanal,ERP,
